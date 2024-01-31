@@ -17,3 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.amazon.com/')
+
+WebUI.setText(findTestObject('Object Repository/Amazon_OR/Page_Amazon.com/input_field-keywords'), 'PFMJEC')
+
+WebUI.click(findTestObject('Object Repository/Amazon_OR/Page_Amazon.com/button_Continue shopping'))
+
+WebUI.click(findTestObject('Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in'))
+
+WebUI.setText(findTestObject('Object Repository/Amazon_OR/Page_Amazon Sign-In/input_email'), 'madhumudedla.ms5@gmail.com')
+
+WebUI.click(findTestObject('Object Repository/Amazon_OR/Page_Amazon Sign-In/inputcontinue'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Amazon_OR/Page_Amazon Sign-In/input_password'), 'CRqjWPeblyV95o9fznV5pg==')
+
+WebUI.click(findTestObject('Object Repository/Amazon_OR/Page_Amazon Sign-In/inputsignInSubmit'))
+
+WebUI.click(findTestObject('Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/i_hm-icon nav-sprite'))
+
+WebUI.click(findTestObject('Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/ul_Digital Content  DevicesAmazon MusicKind_c88f81'))
+
+WebUI.click(findTestObject('Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/a_Sign Out'))
+
+WebUI.closeBrowser()
+
