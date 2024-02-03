@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Amazon_CategorySearch_002,Chrome 121.0.0.0,,,31-01-2024 16:22:42,31-01-2024 16:24:11,1m - 29.783s,PASSED
+,,,,,,,
+Test Cases/Amazon_Category_Search_Page/TC_Amazon_Home_001,Chrome 121.0.0.0,,,31-01-2024 16:22:42,31-01-2024 16:23:13,31.336s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 16:22:42,31-01-2024 16:22:43,0.625s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 16:22:43,31-01-2024 16:22:46,2.764s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,31-01-2024 16:22:46,31-01-2024 16:22:47,1.204s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon.com/input_field-keywords""), ""AMBKUY"")",Chrome 121.0.0.0,,,31-01-2024 16:22:47,31-01-2024 16:22:48,1.013s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon.com/button_Continue shopping""))",Chrome 121.0.0.0,,,31-01-2024 16:22:48,31-01-2024 16:22:49,0.857s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=baby-products-intl-ship"", true)",Chrome 121.0.0.0,,,31-01-2024 16:22:49,31-01-2024 16:23:05,16.263s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Walkers"")",Chrome 121.0.0.0,,,31-01-2024 16:23:05,31-01-2024 16:23:06,1.332s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,31-01-2024 16:23:06,31-01-2024 16:23:13,6.657s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,31-01-2024 16:23:13,31-01-2024 16:23:13,0.439s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 16:23:13,31-01-2024 16:23:13,0.072s,ERROR
+,,,,,,,
+Test Cases/Amazon_Category_Search_Page/TC_Amaazon_Home_002,Chrome 121.0.0.0,,,31-01-2024 16:23:13,31-01-2024 16:23:39,26.045s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 16:23:13,31-01-2024 16:23:14,0.106s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 16:23:14,31-01-2024 16:23:15,0.943s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,31-01-2024 16:23:15,31-01-2024 16:23:16,1.100s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon.com/input_field-keywords""), ""BGLXFM"")",Chrome 121.0.0.0,,,31-01-2024 16:23:16,31-01-2024 16:23:16,0.775s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon.com/button_Continue shopping""))",Chrome 121.0.0.0,,,31-01-2024 16:23:16,31-01-2024 16:23:17,0.594s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,31-01-2024 16:23:17,31-01-2024 16:23:32,14.976s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon Sign-In/a_Create your Amazon account""))",Chrome 121.0.0.0,,,31-01-2024 16:23:32,31-01-2024 16:23:34,1.872s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon Registration/input_customerName""), ""Madhavi"")",Chrome 121.0.0.0,,,31-01-2024 16:23:34,31-01-2024 16:23:35,1.335s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon Registration/input_email""), ""madhumudedla.ms5@gmail.com"")",Chrome 121.0.0.0,,,31-01-2024 16:23:35,31-01-2024 16:23:36,0.855s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon Registration/input_password""), ""E7HzuEZzy+zoR/HfJi0dbQ=="")",Chrome 121.0.0.0,,,31-01-2024 16:23:36,31-01-2024 16:23:37,0.596s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon Registration/input_passwordCheck""), ""E7HzuEZzy+zoR/HfJi0dbQ=="")",Chrome 121.0.0.0,,,31-01-2024 16:23:37,31-01-2024 16:23:37,0.682s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon Registration/inputcontinue""))",Chrome 121.0.0.0,,,31-01-2024 16:23:37,31-01-2024 16:23:39,1.602s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,31-01-2024 16:23:39,31-01-2024 16:23:39,0.414s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 16:23:39,31-01-2024 16:23:39,0.082s,ERROR
+,,,,,,,
+Test Cases/Amazon_Category_Search_Page/TC_Amazon_Home_003,Chrome 121.0.0.0,,,31-01-2024 16:23:39,31-01-2024 16:24:11,31.933s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 16:23:39,31-01-2024 16:23:40,0.219s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 16:23:40,31-01-2024 16:23:41,0.938s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,31-01-2024 16:23:41,31-01-2024 16:23:41,0.150s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,31-01-2024 16:23:41,31-01-2024 16:23:42,0.891s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon.com/input_field-keywords""), ""FUNFYY"")",Chrome 121.0.0.0,,,31-01-2024 16:23:42,31-01-2024 16:23:46,3.911s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon.com/button_Continue shopping""))",Chrome 121.0.0.0,,,31-01-2024 16:23:46,31-01-2024 16:23:47,0.988s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 121.0.0.0,,,31-01-2024 16:23:47,31-01-2024 16:24:05,18.838s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Da vinci code"")",Chrome 121.0.0.0,,,31-01-2024 16:24:05,31-01-2024 16:24:07,1.953s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,31-01-2024 16:24:07,31-01-2024 16:24:11,3.657s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,31-01-2024 16:24:11,31-01-2024 16:24:11,0.268s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 16:24:11,31-01-2024 16:24:11,0.036s,ERROR

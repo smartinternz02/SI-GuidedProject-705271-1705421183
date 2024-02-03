@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Amazon_CategorySearch_002,Chrome 120.0.0.0,,,25-01-2024 17:18:35,25-01-2024 17:20:37,2m - 2.438s,PASSED
+,,,,,,,
+Test Cases/Amazon_Category_Search_Page/TC_Amaazon_Home_002,Chrome 120.0.0.0,,,25-01-2024 17:18:35,25-01-2024 17:19:07,31.956s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,25-01-2024 17:18:35,25-01-2024 17:18:38,2.458s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,25-01-2024 17:18:38,25-01-2024 17:18:38,0.865s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon.com/input_field-keywords""), ""BGLXFM"")",Chrome 120.0.0.0,,,25-01-2024 17:18:38,25-01-2024 17:18:42,3.131s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon.com/button_Continue shopping""))",Chrome 120.0.0.0,,,25-01-2024 17:18:42,25-01-2024 17:18:42,0.747s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 120.0.0.0,,,25-01-2024 17:18:42,25-01-2024 17:18:59,16.193s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon Sign-In/a_Create your Amazon account""))",Chrome 120.0.0.0,,,25-01-2024 17:18:59,25-01-2024 17:19:01,2.751s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon Registration/input_customerName""), ""Madhavi"")",Chrome 120.0.0.0,,,25-01-2024 17:19:01,25-01-2024 17:19:03,1.448s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon Registration/input_email""), ""madhumudedla.ms5@gmail.com"")",Chrome 120.0.0.0,,,25-01-2024 17:19:03,25-01-2024 17:19:03,0.717s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon Registration/input_password""), ""E7HzuEZzy+zoR/HfJi0dbQ=="")",Chrome 120.0.0.0,,,25-01-2024 17:19:03,25-01-2024 17:19:04,0.450s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon Registration/input_passwordCheck""), ""E7HzuEZzy+zoR/HfJi0dbQ=="")",Chrome 120.0.0.0,,,25-01-2024 17:19:04,25-01-2024 17:19:04,0.542s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon Registration/inputcontinue""))",Chrome 120.0.0.0,,,25-01-2024 17:19:04,25-01-2024 17:19:06,2.075s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,25-01-2024 17:19:06,25-01-2024 17:19:07,0.295s,PASSED
+,,,,,,,
+Test Cases/Amazon_Category_Search_Page/TC_Amazon_Home_001,Chrome 120.0.0.0,,,25-01-2024 17:19:26,25-01-2024 17:20:09,42.958s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,25-01-2024 17:19:26,25-01-2024 17:19:27,0.895s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,25-01-2024 17:19:27,25-01-2024 17:19:29,2.145s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon.com/input_field-keywords""), ""AMBKUY"")",Chrome 120.0.0.0,,,25-01-2024 17:19:29,25-01-2024 17:19:30,0.681s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon.com/button_Continue shopping""))",Chrome 120.0.0.0,,,25-01-2024 17:19:30,25-01-2024 17:19:31,1.026s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=baby-products-intl-ship"", true)",Chrome 120.0.0.0,,,25-01-2024 17:19:31,25-01-2024 17:19:41,9.796s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Walkers"")",Chrome 120.0.0.0,,,25-01-2024 17:19:41,25-01-2024 17:19:42,0.889s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,25-01-2024 17:19:42,25-01-2024 17:20:09,27.287s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,25-01-2024 17:20:09,25-01-2024 17:20:09,0.227s,PASSED
+,,,,,,,
+Test Cases/Amazon_Category_Search_Page/TC_Amazon_Home_003,Chrome 120.0.0.0,,,25-01-2024 17:20:09,25-01-2024 17:20:37,27.722s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,25-01-2024 17:20:09,25-01-2024 17:20:10,0.690s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,25-01-2024 17:20:10,25-01-2024 17:20:10,0.143s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,25-01-2024 17:20:10,25-01-2024 17:20:13,2.994s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon.com/input_field-keywords""), ""FUNFYY"")",Chrome 120.0.0.0,,,25-01-2024 17:20:13,25-01-2024 17:20:14,0.686s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon.com/button_Continue shopping""))",Chrome 120.0.0.0,,,25-01-2024 17:20:14,25-01-2024 17:20:15,0.746s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 120.0.0.0,,,25-01-2024 17:20:15,25-01-2024 17:20:25,10.602s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Da vinci code"")",Chrome 120.0.0.0,,,25-01-2024 17:20:25,25-01-2024 17:20:27,2.159s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Category_Search_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,25-01-2024 17:20:27,25-01-2024 17:20:37,9.305s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,25-01-2024 17:20:37,25-01-2024 17:20:37,0.340s,PASSED
